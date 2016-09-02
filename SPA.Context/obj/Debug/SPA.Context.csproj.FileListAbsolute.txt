@@ -1,0 +1,12 @@
+D:\C#Projects\SPAInforationSystem\SPA.Context\bin\Debug\SPA.Context.dll.config
+D:\C#Projects\SPAInforationSystem\SPA.Context\bin\Debug\SPA.Context.dll
+D:\C#Projects\SPAInforationSystem\SPA.Context\bin\Debug\SPA.Context.pdb
+D:\C#Projects\SPAInforationSystem\SPA.Context\bin\Debug\EntityFramework.dll
+D:\C#Projects\SPAInforationSystem\SPA.Context\bin\Debug\EntityFramework.SqlServer.dll
+D:\C#Projects\SPAInforationSystem\SPA.Context\bin\Debug\EntityFramework.xml
+D:\C#Projects\SPAInforationSystem\SPA.Context\bin\Debug\EntityFramework.SqlServer.xml
+D:\C#Projects\SPAInforationSystem\SPA.Context\obj\Debug\SPA.Context.dll
+D:\C#Projects\SPAInforationSystem\SPA.Context\obj\Debug\SPA.Context.pdb
+D:\C#Projects\SPAInforationSystem\SPA.Context\bin\Debug\SPA.Models.dll
+D:\C#Projects\SPAInforationSystem\SPA.Context\bin\Debug\SPA.Models.pdb
+D:\C#Projects\SPAInforationSystem\SPA.Context\obj\Debug\SPA.Context.csprojResolveAssemblyReference.cache

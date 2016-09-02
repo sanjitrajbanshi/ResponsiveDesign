@@ -1,0 +1,16 @@
+D:\C#Projects\SPAInforationSystem\SPA.BusinessService\bin\Debug\SPA.BusinessService.dll.config
+D:\C#Projects\SPAInforationSystem\SPA.BusinessService\bin\Debug\SPA.BusinessService.dll
+D:\C#Projects\SPAInforationSystem\SPA.BusinessService\bin\Debug\SPA.BusinessService.pdb
+D:\C#Projects\SPAInforationSystem\SPA.BusinessService\bin\Debug\EntityFramework.dll
+D:\C#Projects\SPAInforationSystem\SPA.BusinessService\bin\Debug\EntityFramework.SqlServer.dll
+D:\C#Projects\SPAInforationSystem\SPA.BusinessService\bin\Debug\EntityFramework.xml
+D:\C#Projects\SPAInforationSystem\SPA.BusinessService\bin\Debug\EntityFramework.SqlServer.xml
+D:\C#Projects\SPAInforationSystem\SPA.BusinessService\obj\Debug\SPA.BusinessService.csprojResolveAssemblyReference.cache
+D:\C#Projects\SPAInforationSystem\SPA.BusinessService\obj\Debug\SPA.BusinessService.dll
+D:\C#Projects\SPAInforationSystem\SPA.BusinessService\obj\Debug\SPA.BusinessService.pdb
+D:\C#Projects\SPAInforationSystem\SPA.BusinessService\bin\Debug\SPA.Models.dll
+D:\C#Projects\SPAInforationSystem\SPA.BusinessService\bin\Debug\SPA.Repository.dll
+D:\C#Projects\SPAInforationSystem\SPA.BusinessService\bin\Debug\SPA.Context.dll
+D:\C#Projects\SPAInforationSystem\SPA.BusinessService\bin\Debug\SPA.Models.pdb
+D:\C#Projects\SPAInforationSystem\SPA.BusinessService\bin\Debug\SPA.Repository.pdb
+D:\C#Projects\SPAInforationSystem\SPA.BusinessService\bin\Debug\SPA.Context.pdb

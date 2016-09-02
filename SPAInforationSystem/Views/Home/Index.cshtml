@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="angularStudent">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/StudentAngular.js"></script>
+    <script src="~/Scripts/angular-route.min.js"></script>
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+    <div >
+        <div>{{message}}</div>
+        <ul>
+            <li><a href="/#/Register">Insert Student</a></li>
+            <li><a href="/#/Search">SearchStudent</a></li>
+            <li><a href="/#/Delete">Delete Student</a></li>
+            <li><a href="/#/Update">update Student</a></li>
+            <li><a href="/#/GetAll">Get All Student</a></li>
+        </ul>
+
+        <div ng-view>
+
+           
+        </div>
+
+
+     
+
+            
+       
+
+           </div>
+</body>
+</html>

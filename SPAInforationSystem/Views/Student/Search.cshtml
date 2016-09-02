@@ -1,0 +1,62 @@
+﻿<h4>Register</h4>
+
+<html ng-app="angularStudent" >
+<head>
+    <title>Test</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/Scripts/angular-route.min.js"></script>
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/StudentAngular.js"></script>
+    <script src="~/Scripts/Services.js"></script>
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+</head>
+<body ng-controller="studentController" >
+    <form>
+        <fieldset>
+            Search Students
+
+            <p>Student Roll no: <input type="text" name="txtRoll" ng-model="studentModel.Id" /></p>
+
+
+            <input type="submit" value="Search" ng-click="SearchController()" />
+        </fieldset>
+        <div id="divSearch">
+            <div >
+
+                Hello i am new div
+                <input type="checkbox" ng-model="hideTable" />Min/Max Table<br />
+
+                <table ng-hide="!hideTable">
+                    <tbody>
+                        <tr><td>Roll No</td><td>Name</td><td>Address</td><td>Phone</td></tr>
+                        <tr>
+                            <td>
+                                {{studentModel.Id}}                            </td>
+                            <td>
+                                {{studentModel.Name}}
+                            </td>
+                            <td>
+                                {{studentModel.Address}}
+                            </td>
+                            <td>
+                                {{studentModel.Phone}}
+                            </td>
+                        </tr>
+
+
+
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+    </form>
+
+
+</body>
+
+
+</html>

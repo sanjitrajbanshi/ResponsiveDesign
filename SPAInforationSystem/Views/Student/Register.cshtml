@@ -1,0 +1,33 @@
+﻿<h4>Register</h4>
+
+<html ng-app="angularStudent">
+<head>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/Scripts/angular-route.min.js"></script>
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/StudentAngular.js"></script>
+    <script src="~/Scripts/Services.js"></script>
+</head>
+<body ng-controller="studentController">
+    <form>
+        <fieldset>
+            Please Register Students
+
+            <p>Student Roll no: <input type="text" name="txtRoll" ng-model="student.Id"/></p>
+            <p>Student Name: <input type="text"  name="txtName" ng-model="student.Name"/></p>
+            <p>Student Address: <input type="text" name="txtAddress" ng-model="student.Address" /></p>
+            <p>Student Phone: <input type="text" name="txtPhone" ng-model="student.Phone"/></p>
+
+
+            <input type="submit" ng-click="InsertService()" value="INSERT" name="submit" />
+        </fieldset>
+
+
+    </form>
+
+
+</body>
+
+
+</html>

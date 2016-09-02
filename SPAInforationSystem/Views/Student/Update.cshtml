@@ -1,0 +1,79 @@
+﻿<h4>Register</h4>
+
+<html ng-app="angularStudent">
+<head>
+    <title>Test</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/Scripts/angular-route.min.js"></script>
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/StudentAngular.js"></script>
+    <script src="~/Scripts/Services.js"></script>
+    <script src="~/Scripts/jquery-1.9.1.js"></script>
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body ng-controller="studentController">
+    <form>
+        <fieldset>
+            Update Students
+
+            <p>Student Roll no: <input type="text" name="txtRoll" ng-model="studentModel.Id" /></p>
+
+
+            <input type="submit" value="Search" ng-click="SearchController()" />
+        </fieldset>
+        <div id="divSearch">
+            <div ng-hide="!hideTable">
+
+                Hello i am new div
+
+                <span id="removeTrip" class="glyphicon glyphicon-remove"></span>&nbsp;&nbsp
+                
+                
+                <span class="glyphicon glyphicon-envelope"></span>
+                    <input type="checkbox" ng-model="hideTable" />Min/Max Table<br />
+
+                    <table>
+                        <tbody>
+
+                            <tr>
+                                <td>Roll No</td>
+                                <td>
+                                    <input type="text" value={{studentModel.Id}} ng-model="studentModel.Id">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Name</td>
+                                <td>
+                                    <input type="text" value={{studentModel.Name}} ng-model="studentModel.Name">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Address</td>
+                                <td>
+                                    <input type="text" value={{studentModel.Address}} ng-model="studentModel.Address">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Phone</td>
+                                <td>
+                                    <input type="text" value={{studentModel.Phone}} ng-model="studentModel.Phone">
+                                </td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+                    <input type="button" name="btnUpdate" value="Edit" ng-click="UpdateStudentController()" />
+</div>
+        </div>
+
+    </form>
+
+
+</body>
+
+
+</html>

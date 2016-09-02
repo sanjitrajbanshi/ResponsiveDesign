@@ -1,0 +1,42 @@
+﻿<h4>Register</h4>
+
+<html ng-app="angularStudent">
+<head>
+    <title>Test</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/Scripts/angular-route.min.js"></script>
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/StudentAngular.js"></script>
+    <script src="~/Scripts/Services.js"></script>
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+</head>
+<body ng-controller="studentController">
+    <form>
+        <fieldset>
+            Get All Student List
+           <table border="1">
+               <tr><td>ROLL</td><td>NAME</td><td>ADDRESS</td><td>PHONE</td>
+               </tr>
+               <tr ng-repeat="st in studentData | orderBy:'Name' : false" >
+                   <td>{{st.Id}}</td>
+                   <td>{{st.Name}}</td>
+                   <td>{{st.Address}}</td>
+                   <td>{{st.Phone}}</td>
+
+
+
+               </tr>
+
+
+
+
+           </table>
+</fieldset>
+    </form>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,9 @@
+D:\C#Projects\SPAInforationSystem\SPA.Models\bin\Debug\SPA.Models.dll.config
+D:\C#Projects\SPAInforationSystem\SPA.Models\bin\Debug\SPA.Models.dll
+D:\C#Projects\SPAInforationSystem\SPA.Models\bin\Debug\SPA.Models.pdb
+D:\C#Projects\SPAInforationSystem\SPA.Models\bin\Debug\EntityFramework.dll
+D:\C#Projects\SPAInforationSystem\SPA.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\C#Projects\SPAInforationSystem\SPA.Models\bin\Debug\EntityFramework.xml
+D:\C#Projects\SPAInforationSystem\SPA.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\C#Projects\SPAInforationSystem\SPA.Models\obj\Debug\SPA.Models.dll
+D:\C#Projects\SPAInforationSystem\SPA.Models\obj\Debug\SPA.Models.pdb
